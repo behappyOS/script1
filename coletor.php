@@ -1,7 +1,7 @@
 <?php
 
 
-$mysqli = new mysqli("mistica.exametoxicologico.com.br", "henrique", "psy_mysql_henrique", "psy_transp");
+$mysqli = new mysqli("url", "user", "pass", "database");
 mysqli_set_charset($mysqli, 'utf8');
 set_time_limit(0);
 
